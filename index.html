@@ -8,9 +8,10 @@
         <script src="inder.js"></script>
     </head>
     <body>
-        <div class="button-container">
-            <button id="button" onclick="increment()">Click me!</button>
-            <p id="text">0</p>
-        </div>
+        <button class="increment-btn" onclick="Increment()">Click!</button>
+        <button class="increment-btn" onclick="growIncrementation(1)">1+ p/click</button>
+        <button class="increment-btn" onclick="growIncrementation(-1)">1- p/click</button>
+        <label id="points">Points: 0</label>
+        <label id="incrementation">Incrementation: 1</label>
     </body>
 </html>

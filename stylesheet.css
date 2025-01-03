@@ -1,11 +1,37 @@
 body {
     background-color: black;
-    color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    gap: 5px;
+    margin: 0;
 }
-#button {
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-    padding: 10px;
+#points {
+    color: white;
+    font-size: larger;
+    position: absolute;
+    top: 60px;
+}
+
+#incrementation {
+    color: white;
+    font-size: larger;
+    position: absolute;
+    top: 80px;
+}
+
+.increment-btn {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: fit;
+    height: 40px;
+    font-size: larger;
+}
+
+.increment-btn:hover {
+    width: 135px;
+    font-size: x-large;
 }
