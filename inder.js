@@ -3,7 +3,7 @@ let count = 1;
 function Increment() {
     i = i + count;
     document.getElementById("points").innerHTML = "Points: " + i;
-    console.log(i);
+    console.log(i); // Debugging
 }
 
 function growIncrementation(num) {
