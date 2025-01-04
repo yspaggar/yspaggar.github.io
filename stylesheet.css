@@ -30,8 +30,3 @@ body {
     height: 40px;
     font-size: larger;
 }
-
-.increment-btn:hover {
-    width: 135px;
-    font-size: x-large;
-}
