@@ -6,19 +6,20 @@ body {
     padding-top: 10px;
     gap: 5px;
     margin: 0;
+    height: 100vh;
 }
 #points {
     color: white;
     font-size: larger;
     position: absolute;
-    top: 60px;
+    top: 550px;
 }
 
 #incrementation {
     color: white;
     font-size: larger;
     position: absolute;
-    top: 80px;
+    top: 525px;
 }
 
 .increment-btn {

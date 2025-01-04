@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Testing</title>
+        <title>Counter</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="stylesheet.css">
         <script src="inder.js"></script>
     </head>
     <body>
-        <button class="increment-btn" onclick="Increment()">Click!</button>
+        <button class="increment-btn" onclick="Increment()">Increase Counter</button>
         <button class="increment-btn" onclick="growIncrementation(1)">1+ p/click</button>
         <button class="increment-btn" onclick="growIncrementation(-1)">1- p/click</button>
-        <label id="points">Points: 0</label>
+        <button class="increment-btn" onclick="reset()">Reset Counter</button>
+        <button class="increment-btn" onclick="resetIncrementation()">Reset Incrementation</button>
+        <button class="increment-btn" onclick="save()">Save</button>
+        <button class="increment-btn" onclick="load()">Load</button>
+        <label id="points">Counter: 0</label>
         <label id="incrementation">Incrementation: 1</label>
     </body>
 </html>
